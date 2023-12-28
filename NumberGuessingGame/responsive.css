@@ -1,0 +1,71 @@
+@media (max-width: 450px) {
+  /* Layout */
+
+  header {
+    position: relative;
+    height: 25vh;
+    border-bottom: 7px solid #ededed;
+  }
+  main {
+    overflow: hidden;
+    height: 75vh;
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+  }
+  .left {
+    width: 52rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 10rem;
+  }
+  .right {
+    width: 52rem;
+    font-size: 2rem;
+    position: absolute;
+    top: 30rem;
+    right: -18rem;
+  }
+
+  /* Componrnts */
+  h1 {
+    font-size: 2.2rem;
+  }
+  .between {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 2rem;
+    right: 1.2rem;
+  }
+  .btn {
+    font-size: 1.2rem;
+    padding: 1.2rem 1.8rem;
+  }
+  .message {
+    margin-bottom: 5rem;
+    height: 1.5rem;
+    font-size: 20px;
+  }
+  .number {
+    font-size: 3rem;
+    width: 10rem;
+    padding: 1.5rem 0rem;
+  }
+  .guess {
+    border: 2px solid #eee;
+    font-size: 2rem;
+    padding: 2.5rem;
+    width: 14rem;
+  }
+  .right {
+    font-size: 16px;
+  }
+  .check {
+    margin-bottom: 0;
+  }
+}
